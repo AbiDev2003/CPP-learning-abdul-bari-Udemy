@@ -1,0 +1,5 @@
+Inheritance
+
+Extend or acquiring the existing design and add a new design. 
+We can reuse the design(class), without writing all the properties again. 
+

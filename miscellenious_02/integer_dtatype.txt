@@ -1,0 +1,6 @@
+The size of integer depends on size of compiler
+If the compiler is 16 bit then size of integer is 16 bit or 2 byte (minimum)
+If the compiler is 32 bit then size of integer is 32 bit or 4 byte
+If the compiler is 64 bit then size of integer is 64 bit or 8 byte
+
+But character and float size does not vary like that.

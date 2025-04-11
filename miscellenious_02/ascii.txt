@@ -1,0 +1,22 @@
+ASCII (American Standard Code for Information Interchange)
+//capital letters
+A - 65
+.
+.
+.
+z - 90
+
+
+//small letters
+a - 97
+.
+.
+.
+z- 122
+
+
+//digits
+0 - 48
+.
+.
+9 - 57

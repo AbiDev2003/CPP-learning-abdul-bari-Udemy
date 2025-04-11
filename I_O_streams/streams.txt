@@ -1,0 +1,63 @@
+I/O Streams in C++ (Simple Explanation)
+In C++, I/O Streams (Input/Output Streams) are used to handle input from the user and output to the screen or files.
+
+Stream = Flow of data (like a pipeline).
+Input Stream (cin) → Takes data from the user.
+Output Stream (cout) → Sends data to the screen.
+File Streams (ifstream, ofstream) → Read from/write to files.
+Types of I/O Streams in C++
+Standard Input Stream (cin)
+
+Used for taking input from the keyboard.
+Example: cin >> x;
+Standard Output Stream (cout)
+
+Used for displaying output on the screen.
+Example: cout << "Hello";
+Standard Error Stream (cerr)
+
+Used for printing error messages.
+Example: cerr << "Error!";
+File Streams
+
+ifstream(input file stream) → Reads from files.ofstream(output file stream) → Writes to files.fstream(both input and output) → Reads and writes files.
+
+Block Diagram of C++ I/O Streams
+Here’s a simple diagram to visualize how input and output streams work:
+        Keyboard (User Input)
+                 │
+                 ▼
+        -----------------
+        |   cin (Input)  |
+        -----------------
+                 │
+                 ▼
+         Program (Processing)
+                 │
+                 ▼
+        -----------------
+        |  cout (Output)  |
+        -----------------
+                 │
+                 ▼
+       Monitor (Display Output)
+
+
+For file streams, the diagram would look like:
+
+       Disk/File (Data Storage)
+                 │
+   ------------------------
+   |  ifstream (Read File)  | 
+   ------------------------
+                 │
+                 ▼
+         Program (Processing)
+                 │
+   ------------------------
+   |  ofstream (Write File) | 
+   ------------------------
+                 │
+                 ▼
+       Disk/File (Data Storage)
+

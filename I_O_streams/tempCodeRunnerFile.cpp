@@ -1,0 +1,1 @@
+cout<<"Bhai name: "<<bhainame<<endl;
